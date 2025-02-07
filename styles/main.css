@@ -248,6 +248,19 @@ svg * {
   --color-dark-15: #262626;
   --color-dark-20: #333;
   --color-dark-40: #666;
+  --color-gray-50: #7E7E81;
+  --color-gray-60: #98989A;
+  --color-accent: #FFD11A;
+  --color-red: #FF5500;
+  --font-family-base: "Inter", sans-serif;
+  --font-family-accent: "Kumbh Sans", sans-serif;
+  --container-width: 100rem;
+  --container-padding-x: 1rem;
+}
+@media (width <= 90.06125rem) {
+  :root {
+    --container-width: 80rem ;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

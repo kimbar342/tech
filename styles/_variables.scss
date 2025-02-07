@@ -1,4 +1,6 @@
 @use 'helpers' as *;
+@use './helpers/functions' as *;
+@use './helpers/media' as *;
 
 :root {
   --color-light: #fff;
@@ -7,4 +9,21 @@
   --color-dark-15: #262626;
   --color-dark-20: #333;
   --color-dark-40: #666;
+
+  --color-gray-50: #7E7E81;
+  --color-gray-60: #98989A;
+
+  --color-accent: #FFD11A;
+
+  --color-red: #FF5500;
+
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-accent: 'Kumbh Sans', sans-serif;
+
+  --container-width: #{rem(1600)};
+  --container-padding-x: #{rem(16)};
+
+  @include laptop {
+    --container-width: #{rem(1280)}
+  }
 }
